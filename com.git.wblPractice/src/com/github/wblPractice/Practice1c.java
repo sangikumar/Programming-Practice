@@ -2,7 +2,7 @@
  * --> One Function should swap the numbers without any third new variable.
  * --> Second function should swap the numbers using a third variable. */
 
-package com.git.wblPractice;
+package com.github.wblPractice;
 
 import java.util.Scanner;
 

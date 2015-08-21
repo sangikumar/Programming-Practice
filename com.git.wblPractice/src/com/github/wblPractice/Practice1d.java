@@ -1,7 +1,7 @@
 /*d. Write a program  to calculate factorial of a given number. 
  * You need to compute the factorial with one logic that uses recursion and another logic without recursion.*/
 
-package com.git.wblPractice;
+package com.github.wblPractice;
 
 import java.util.Scanner;
 

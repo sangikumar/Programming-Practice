@@ -4,7 +4,7 @@
  * printed meaning you can print 10 numbers or 15 or 20 or any desired
  * number
  */
-package com.git.wblPractice;
+package com.github.wblPractice;
 
 import java.util.Scanner;
 

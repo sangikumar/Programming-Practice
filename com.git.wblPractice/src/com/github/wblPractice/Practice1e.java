@@ -1,5 +1,5 @@
 /*e. Write a program  to check if a given number is prime or not.*/
-package com.git.wblPractice;
+package com.github.wblPractice;
 
 import java.util.Scanner;
 
