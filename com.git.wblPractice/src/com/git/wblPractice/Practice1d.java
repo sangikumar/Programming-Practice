@@ -45,4 +45,6 @@ public class Practice1d {
 		factR = factorialWithRecursion(number - 1) * number;
 		return factR;
 	}
+	
+	//can find max factorial for 170 , next 171 will send you infinity as a output
 }
