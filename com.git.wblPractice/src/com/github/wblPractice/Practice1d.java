@@ -46,5 +46,13 @@ public class Practice1d {
 		return factR;
 	}
 	
-	//can find max factorial for 170 , next 171 will send you infinity as a output
+	//can find max factorial for 170 , next 171 will send you infinity as an output
 }
+
+/*output on Console for 170
+Enter number of which you need factorial : 
+170
+Enter '999' for perform without recursion : 
+999
+WithoutRecursion : 7.257415615307994E306
+*/
