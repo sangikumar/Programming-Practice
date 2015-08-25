@@ -2,7 +2,7 @@
  * --> One Function should swap the numbers without any third new variable.
  * --> Second function should swap the numbers using a third variable. */
 
-package com.github.wblPractice;
+package com.github.wblPractice.loops;
 
 import java.util.Scanner;
 
@@ -23,24 +23,25 @@ public class Practice1c {
 	}
 
 	// swapping of numbers using third variable
-	public void swapWithThirdVariable(int number1, int number2) {
+	public int[] swapWithThirdVariable(int number1, int number2) {
 		int thirdVariable = 0;
 		thirdVariable = number2;
 		number2 = number1;
 		number1 = thirdVariable;
-		System.out
-				.println("New Swapping value of number1 & number2 resp with third variable  "
-						+ number1 + number2);
+		System.out.println("New Swapping value of number1 & number2 resp with third variable  "
+						+ number1 +" & "+ number2);
+		return new int[] {number1 , number2}; 
 	}
 
 	// swapping of numbers without using third variable
-	public void swapWithOutThirdVariable(int number1, int number2) {
+	public int[] swapWithOutThirdVariable(int number1, int number2) {
 		number1 = number2 - number1;
 		number2 = number2 - number1;
 		number1 = number1 + number2;
 		System.out
 				.println("New Swapping value of number1 & number2 resp without third variable  "
-						+ number1 + number2);
+						+ number1 + " & " + number2);
+		return new int[] {number1 , number2}; 
 	}
 
 }

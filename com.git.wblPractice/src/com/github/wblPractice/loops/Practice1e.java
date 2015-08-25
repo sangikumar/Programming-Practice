@@ -1,5 +1,5 @@
 /*e. Write a program  to check if a given number is prime or not.*/
-package com.github.wblPractice;
+package com.github.wblPractice.loops;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Practice1e {
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
 		System.out.println("Enter the number for checking whether its prime or not :");
-		double number = new Scanner(System.in).nextInt();
+		int number = new Scanner(System.in).nextInt();
 		Practice1e testPrime = new Practice1e();
 		testPrime.testForPrimeNumber(number);
 		System.out.println("Is entered number is Prime ? : "
@@ -16,7 +16,7 @@ public class Practice1e {
 		System.out.println("It took " + (endTime - startTime) + " milliseconds");
 	}
 
-	public boolean testForPrimeNumber(double number) {
+	public boolean testForPrimeNumber(int number) {
 		for (int i = 2; i <= number / 2; i++)
 			if (number % i == 0) {
 				return false;

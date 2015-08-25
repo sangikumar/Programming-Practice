@@ -3,7 +3,7 @@
  * of digits in the number and add them it should be equal to the number itself. 
  * For example 153 has 3 digits in it and if we do 1^3+5^3+3^3=153.
  * FYI: ^ means is to the power.*/
-package com.github.wblPractice;
+package com.github.wblPractice.loops;
 
 import java.util.Scanner;
 

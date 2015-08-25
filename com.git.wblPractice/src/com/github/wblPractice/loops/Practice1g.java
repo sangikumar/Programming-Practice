@@ -6,7 +6,7 @@
  *****
  ******		   
  */
-package com.github.wblPractice;
+package com.github.wblPractice.loops;
 
 import java.util.Scanner;
 
