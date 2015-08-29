@@ -1,56 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24" started-at="2015-08-25T06:46:24Z" finished-at="2015-08-25T06:46:24Z">
+  <suite name="Default suite" duration-ms="34" started-at="2015-08-28T01:31:50Z" finished-at="2015-08-28T01:31:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24" started-at="2015-08-25T06:46:24Z" finished-at="2015-08-25T06:46:24Z">
-      <class name="test.loops.TestLoopsPractice1f">
-        <test-method status="FAIL" signature="testArmstrongNumber1()[pri:0, instance:test.loops.TestLoopsPractice1f@67117f44]" name="testArmstrongNumber1" duration-ms="10" started-at="2015-08-24T23:46:24Z" finished-at="2015-08-24T23:46:24Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [12] but found [5]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [12] but found [5]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:372)
-	at org.testng.Assert.assertEquals(Assert.java:382)
-	at test.loops.TestLoopsPractice1f.testArmstrongNumber1(TestLoopsPractice1f.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="Default test" duration-ms="34" started-at="2015-08-28T01:31:50Z" finished-at="2015-08-28T01:31:50Z">
+      <class name="test.String.TestStringPractice3b">
+        <test-method status="PASS" signature="replaceSubString()[pri:0, instance:test.String.TestStringPractice3b@67117f44]" name="replaceSubString" duration-ms="17" started-at="2015-08-27T18:31:50Z" finished-at="2015-08-27T18:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testArmstrongNumber1 -->
-      </class> <!-- test.loops.TestLoopsPractice1f -->
+        </test-method> <!-- replaceSubString -->
+      </class> <!-- test.String.TestStringPractice3b -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

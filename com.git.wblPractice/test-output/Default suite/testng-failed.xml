@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.loops.TestLoopsPractice1f">
+      <class name="test.String.TestStringPractice3a">
         <methods>
-          <include name="testArmstrongNumber1"/>
+          <include name="testRevString"/>
         </methods>
-      </class> <!-- test.loops.TestLoopsPractice1f -->
+      </class> <!-- test.String.TestStringPractice3a -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
